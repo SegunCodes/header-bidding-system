@@ -23,5 +23,5 @@ jobs:
       - name: Lint and Test
         run: echo "Linting and testing placeholder"
 
-      - name: Deploy
-        run: npx serve src --listen 5000
+      # - name: Deploy
+      #   run: npx serve src --listen 5000
