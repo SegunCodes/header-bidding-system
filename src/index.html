@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header Bidding system</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header Bidding System</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+  <h1>Header Bidding Demo</h1>
+  <div id="banner-ad" class="ad-slot"></div>
+
+  <div id="default-ad" class="ad-slot hidden">
+    <img src="./assets/default-ad.jpg" alt="default Ad">
+  </div>
+
+  <script src="https://wheresbarney.github.io/js/prebid.js"></script>
+  <script src="./js/prebid.config.js"></script>
+  <script src="./js/lazy-loading.js"></script>
+  <script src="./js/error-handler.js"></script>
+  <script src="./js/ad-analytics.js"></script>
 </body>
 </html>
